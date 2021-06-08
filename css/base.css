@@ -60,7 +60,8 @@ body{
     
 }
 #border-colour{
-    background-color: rgb(240 235 210);
+    --background-color: rgb(240 235 210)
+    background-color: var(--background-color);
     height: 400px;
     width: 60%;
     margin-left: auto;
