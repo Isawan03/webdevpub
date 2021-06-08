@@ -1,0 +1,112 @@
+h2 {
+    
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+body{
+    background-image: url("https://s1.ticketm.net/dam/a/0b3/b24190d1-e7d1-4435-81b4-f45b5943b0b3_1339891_TABLET_LANDSCAPE_LARGE_16_9.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#playerinfo{
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(240 235 210);
+    font-size: 10px;
+}
+
+.roster-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 0.5%;
+    
+    
+}
+.rostertext img{
+    width: 100%;
+    
+}
+
+.rostertext{
+    background-color: rgb(240 235 210);
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.rostertext:hover{
+    background-color: wheat;
+    transform: translateY(4px)
+}
+.rostertext :active {
+    transform: translateY(4px);
+  }
+#text-button{
+    height: 100px;
+    width: 90px;
+    margin-left: 85%;
+    margin-top: 5%;
+    border-radius: 50%;
+    background-color: rgb(0, 152, 61);
+    
+}
+#border-colour{
+    background-color: rgb(240 235 210);
+    height: 400px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4%;
+    padding-top: 12px;
+    opacity: 0;
+}
+#kort-fakta{
+    height: 370px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:wheat;
+    border-radius: 4%;
+    font-size: 20px;
+    
+}
+.schedule-holder{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240 235 210);
+    height: 600px;
+}
+.game{
+   
+    height: 100px;
+    width: 97%;
+    background-color: wheat;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: bottom;
+}
+#marginal{
+    height: 10px;
+
+}
+@media  screen and (max-width: 600px) {
+    .roster-container{
+        display: block;
+        
+        
+    }
+
+  }
